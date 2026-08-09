@@ -1,17 +1,21 @@
 import type { Product } from "../types/product";
+import HydratingFaceCream from "../assets/products/Hydrating-Face-Cream.jpg";
+import VelvetMatteLipstick from "../assets/products/velvet-matte-lipstick.jpg";
+import RepairHairSerum from "../assets/products/Repair-Hair-Serum.jpg";
+import SoftBloomEaudeParfum from "../assets/products/Soft-Bloom-Eau-de-Parfum.jpg";
+import CoconutBodyLotion from "../assets/products/Coconut-Body-Lotion.jpg";
 
 export const products: Product[] = [
   {
     id: 1,
     name: "Hydrating Face Cream",
-    brand: "GlowCare",
-    category: "skincare",
+    brand: "MHI",
+    category: "Skincare",
     price: 32,
     originalPrice: 42,
     rating: 4.8,
     reviewCount: 128,
-    image:
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=900&q=80",
+    image: HydratingFaceCream,
     description:
       "A lightweight daily moisturizer that helps hydrate and soften the skin without feeling greasy.",
     isBestSeller: true,
@@ -20,13 +24,12 @@ export const products: Product[] = [
   {
     id: 2,
     name: "Velvet Matte Lipstick",
-    brand: "LumaBeauty",
-    category: "makeup",
+    brand: "Golden Rose",
+    category: "Makeup",
     price: 18,
     rating: 4.6,
     reviewCount: 86,
-    image:
-      "https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=900&q=80",
+    image: VelvetMatteLipstick,
     description:
       "A rich matte lipstick with a smooth velvet finish and long-lasting color.",
     isNew: true,
@@ -35,14 +38,13 @@ export const products: Product[] = [
   {
     id: 3,
     name: "Repair Hair Serum",
-    brand: "SilkRoot",
-    category: "haircare",
+    brand: "EIN",
+    category: "Haircare",
     price: 24,
     originalPrice: 30,
     rating: 4.7,
     reviewCount: 94,
-    image:
-      "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?auto=format&fit=crop&w=900&q=80",
+    image: RepairHairSerum,
     description:
       "A nourishing hair serum designed to reduce frizz and add natural shine to damaged hair.",
     inStock: true,
@@ -50,13 +52,12 @@ export const products: Product[] = [
   {
     id: 4,
     name: "Soft Bloom Eau de Parfum",
-    brand: "Auralis",
-    category: "selfcare",
+    brand: "Paristyle Victor Hug",
+    category: "Selfcare",
     price: 58,
     rating: 4.9,
     reviewCount: 212,
-    image:
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=900&q=80",
+    image: SoftBloomEaudeParfum,
     description:
       "A soft floral fragrance with notes of jasmine, vanilla, and white musk.",
     isBestSeller: true,
@@ -65,13 +66,12 @@ export const products: Product[] = [
   {
     id: 5,
     name: "Coconut Body Lotion",
-    brand: "PureNest",
-    category: "selfcare",
+    brand: "Come'on",
+    category: "Selfcare",
     price: 21,
     rating: 4.5,
     reviewCount: 67,
-    image:
-      "https://images.unsplash.com/photo-1617897903246-719242758050?auto=format&fit=crop&w=900&q=80",
+    image: CoconutBodyLotion,
     description:
       "A creamy body lotion enriched with coconut extract for smooth and hydrated skin.",
     inStock: false,

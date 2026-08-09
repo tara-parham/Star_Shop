@@ -1,4 +1,4 @@
-export type ProductCategory = "makeup" | "skincare" | "haircare" | "selfcare";
+export type ProductCategory = "Makeup" | "Skincare" | "Haircare" | "Selfcare";
 
 export type Product = {
   id: number;
