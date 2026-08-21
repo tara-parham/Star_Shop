@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Container } from "../ui/Container";
 
+
 export function Navbar() {
   return (
     <nav className="sticky top-0 z-50 border-b border-slate-100 bg-white/80 backdrop-blur-md">
